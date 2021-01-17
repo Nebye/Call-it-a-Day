@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed",Mathf.Abs(horizontalMove));
         if(Input.GetButtonDown("Jump"))
         {
+            SoundManagerScript.PlaySound ("Whoosh");
             jump = true;
             animator.SetBool("isJumping",true);
         }
