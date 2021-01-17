@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - PlayerMovement
     - SoundManagerScript
     - Timer
+    - bottom
     - exitGame
     - sceneChange
     Unity.2D.Animation.Editor.dll:
@@ -104,11 +105,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14268}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 14516}
+      Script: {instanceID: 14518}
     - Class: 114
-      Script: {instanceID: 15144}
+      Script: {instanceID: 15146}
+    - Class: 114
+      Script: {instanceID: 21462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -175,13 +178,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14068}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14294}
     - Class: 114
-      Script: {instanceID: 14740}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 15144}
+      Script: {instanceID: 14742}
     - Class: 114
-      Script: {instanceID: 17706}
+      Script: {instanceID: 15146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -232,9 +235,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 15144}
+      Script: {instanceID: 15146}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -794,6 +797,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: exitGame
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: Unity.Analytics.DataPrivacy.dll
     namespaceName: UnityEngine.Analytics
@@ -977,7 +986,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: exitGame
+    className: bottom
   platform: 5
   scenePathNames:
   - Assets/Scenes/Opening.unity
