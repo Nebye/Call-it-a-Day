@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class SoundManagerScript : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -11,7 +13,16 @@ public class SoundManagerScript : MonoBehaviour
     void Start()
     {
         playerJumpSound = Resources.Load<AudioClip> ("Whoosh");
-        bgmSound = Resources.Load<AudioClip> ("adventure-8bit_actual");
+
+        if (SceneManager.GetActiveScene().name == "Opening")
+        {
+            bgmSound = Resources.Load<AudioClip>("adventure");
+        }
+        else
+        {
+            bgmSound = Resources.Load<AudioClip>("adventure-8bit_actual");
+        }
+        //bgmSound = Resources.Load<AudioClip> ("adventure-8bit_actual");
 
         audioSrc = GetComponent<AudioSource> ();
     }

@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Opening.unity
+    guid: e098be1fe27560a48b78ee80b328da4f
+  - enabled: 1
+    path: Assets/Scenes/Timer.unity
+    guid: 174ec44312550b5479d1af0f606b027a
+  - enabled: 1
+    path: Assets/Scenes/JumpMan.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

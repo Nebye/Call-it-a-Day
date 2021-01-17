@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Camera_Follow : MonoBehaviour
 {
     public Transform player;
-    public float cameraDis;
+    public float cameraDis = 20.0f;
 
     public GameObject Camera;
 
