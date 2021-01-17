@@ -4,10 +4,13 @@ ScriptsOnlyBuild:
     - Camera_Follow
     - CharacterController2D
     - JumpPower
+    - LastTile
     - LavaSpawn
+    - OpenEnd
     - PlayerMovement
     - SoundManagerScript
     - Timer
+    - exitGame
     - sceneChange
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -81,29 +84,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 11820}
+      Script: {instanceID: 11640}
     - Class: 114
-      Script: {instanceID: 12508}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 12496}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 14078}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 14278}
+      Script: {instanceID: 14068}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14268}
     - Class: 114
-      Script: {instanceID: 14526}
+      Script: {instanceID: 14400}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 14516}
+    - Class: 114
+      Script: {instanceID: 15144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -146,33 +151,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 12666}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12654}
     - Class: 114
-      Script: {instanceID: 13506}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 13906}
+      Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 13928}
+      Script: {instanceID: 13570}
     - Class: 114
-      Script: {instanceID: 14078}
+      Script: {instanceID: 13896}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 13918}
     - Class: 114
-      Script: {instanceID: 14750}
+      Script: {instanceID: 14068}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 14400}
     - Class: 114
-      Script: {instanceID: 17532}
+      Script: {instanceID: 14740}
+    - Class: 114
+      Script: {instanceID: 15144}
+    - Class: 114
+      Script: {instanceID: 17706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -211,21 +220,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11316}
+      Script: {instanceID: 11318}
     - Class: 114
-      Script: {instanceID: 11360}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11416}
+      Script: {instanceID: 11400}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11764}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 13506}
+      Script: {instanceID: 13494}
     - Class: 114
-      Script: {instanceID: 14410}
+      Script: {instanceID: 14400}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -263,7 +272,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 30b5014b414a275e73e6320f481fc5cb
+      Hash: 39263a796f0ca101cf21b33e715c66a1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Timer
@@ -315,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LastTile
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -393,6 +408,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 77b9d43abe7057222b91644c978c61e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenEnd
   - hash:
       serializedVersion: 2
       Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
@@ -657,6 +678,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: sceneChange
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -950,10 +977,10 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: sceneChange
+    className: exitGame
   platform: 5
   scenePathNames:
   - Assets/Scenes/Opening.unity
   - Assets/Scenes/Timer.unity
   - Assets/Scenes/JumpMan.unity
-  playerPath: C:/Users/nebye/Desktop/Call it a Day.exe
+  playerPath: E:/UnityProjects/Call-it-a-Day/Executable/Call it a Day.exe
